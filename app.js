@@ -93,12 +93,9 @@ function handleSubmit(event) {
     let ingredientsArr = ingredients.split(",");
 
     // create a new drink
-    if (allDrinks != null) {
         let newDrink = new Drink(drinkName, ingredientsArr, image, cold, hot, price);
         newDrink.render();
-    }
-
-    console.log(allDrinks);
+    
     saveData(allDrinks);
 }
 
