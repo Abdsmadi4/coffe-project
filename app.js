@@ -127,3 +127,5 @@ function getData() {
     }
 }
 getData();
+
+renderAll();
